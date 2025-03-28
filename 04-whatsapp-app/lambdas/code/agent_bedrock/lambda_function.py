@@ -46,7 +46,8 @@ def invoke_agent(agent_id, agent_alias_id, session_id, prompt):
             chunk = event["chunk"]
             completion = completion + chunk["bytes"].decode()
 
-    except:
+    except Exception as e:
+        print(f"Unexpected error: {e}")
         print(f"Couldn't invoke agent.")
         raise
 

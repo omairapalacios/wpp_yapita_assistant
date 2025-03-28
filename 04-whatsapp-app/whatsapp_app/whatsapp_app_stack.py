@@ -33,7 +33,7 @@ class WhatsappAppStack(Stack):
         AudioKeyName = "audio-from-whatsapp"
         TextBucketName = "text-to-whatsapp"
         
-        DISPLAY_PHONE_NUMBER = 'YOU-NUMBER'
+        DISPLAY_PHONE_NUMBER = '15550879392'
 
         stk = Stack.of(self)
         _account = stk.account

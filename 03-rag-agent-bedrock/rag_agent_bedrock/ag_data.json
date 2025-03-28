@@ -1,40 +1,5 @@
 [
 {
-    "action_group_name": "GetPassengerInformation",
-    "description": "useful for searching passenger data by their Code ID",
-    "lambda_": "",
-    "functions": {
-        "name": "GetInformation",
-        "description": "useful for searching passenger data by their Code ID",
-        "parameters":  [
-            {
-            "name": "passenger_id",
-            "type": "string",
-            "description": "passenger code id, a sequence of 4 digits",
-            "required": 1
-        }
-    ]
-    }
-},
-{
-    "action_group_name": "AskTodayDAy",
-    "description": "useful when you want to know today date and time",
-    "lambda_": "",
-    "functions": {
-        "name": "GetTodayDateTime",
-        "description": "useful when you want to know today date and time in DD/MM/YY HH:MM:SS format",
-        "parameters":  [
-            {
-            "name": "date",
-            "type": "string",
-            "description": "date",
-            "required": 0
-        }
-    ]
-    }
-},
-
-{
     "action_group_name": "CreateSupportTicket",
     "description": "Get or create support tickets for customers issues",
     "functions": {
